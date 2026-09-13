@@ -207,6 +207,10 @@ h1 span .stop-blinking::before {
     transform: scale(1.05);
 }
 
+.demo-warning {
+    font-size: 10px;
+}
+
 /* CONTACT */
 .contact {
     min-height: 100vh;
