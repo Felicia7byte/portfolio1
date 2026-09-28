@@ -143,6 +143,10 @@ h1 span .stop-blinking::before {
 }
 
 /* PROJECTS */
+.projects h1{
+    text-align: center;
+}
+
 .project-list {
     display: flex;
     flex-direction: column;
