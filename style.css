@@ -121,6 +121,27 @@ h1 span .stop-blinking::before {
     justify-content: center;
 }
 
+/* ABOUT */
+.about h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.about-content p {
+    line-height: 4;
+}
+
+.about-content img {
+    width: 300px;
+}
+
 /* PROJECTS */
 .project-list {
     display: flex;
@@ -315,6 +336,11 @@ h1 span .stop-blinking::before {
         margin-top: 10px;
     }
 
+    /* ABOUT */
+    .about-content p {
+        line-height: 1.5;
+    }
+
     /* PROJECTS */
     .projects {
         padding: 50px 16px;
@@ -423,6 +449,16 @@ h1 span .stop-blinking::before {
     .shape2 p {
         font-size: 10px;
         margin-top: 10px;
+    }
+
+    /* ABOUT */
+    .about-content {
+        flex-direction: column-reverse;
+        text-align: justify;
+    }
+
+    .about-content p{
+        line-height: 2;
     }
 
     /* PROJECTS */
